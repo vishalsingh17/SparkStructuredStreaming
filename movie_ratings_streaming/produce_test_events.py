@@ -11,7 +11,6 @@ from confluent_kafka.schema_registry.avro import AvroSerializer
 
 from movie_ratings_streaming.config.config import read_config, read_source_avro_schema
 
-
 def acked(err, msg):
     if err is not None:
         logging.error(f"Failed to deliver message: {msg.value()}: {err}")
