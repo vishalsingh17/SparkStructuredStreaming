@@ -28,27 +28,32 @@ cd SparkStructuredStreaming
 conda create -p venv python=3.7 -y
 ```
 
-4. Install setup.py
+4. Activate the environment
 ```
-python install setup.py
+conda activate D:\SparkStructuredStreaming\venv
 ```
 
-5. Run windows powershell in administrator mode and run the below command
+5. Install setup.py
+```
+python setup.py install
+```
+
+6. Run windows powershell in administrator mode and run the below command
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-6. Install make
+7. Install make
 ```
 choco install make
 ```
 
-7. Install poetry
+8. Install poetry
 ```
 poetry install
 ```
 
-8. Open your Docker Desktop and run the below command
+9. Open your Docker Desktop and run the below command
 ```
 docker-compose up -d
 ```
