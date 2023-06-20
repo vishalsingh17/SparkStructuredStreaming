@@ -8,10 +8,41 @@ The pipeline handles updates and duplicate events by upserting to the destinatio
 ## Data Architecture
 ![data architecture](https://user-images.githubusercontent.com/38698125/209481709-08c7a921-553a-4cd5-9327-055bcb23b1d5.png)
 
-## Local setup
 We spin up a local Kafka cluster with Schema Registry using a [Docker Compose file provided by Confluent](https://developer.confluent.io/tutorials/kafka-console-consumer-producer-avro/kafka.html#get-confluent-platform).
 
 We install a local Spark Structured Streaming app using Poetry.
+
+## Set Up
+1. Clone the repository
+```
+git clone https://github.com/vishalsingh17/SparkStructuredStreaming
+```
+
+2. Change the directory
+```
+cd SparkStructuredStreaming
+```
+
+3. Create a new environment
+```
+conda create -p venv python=3.7 -y
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Running instructions
 Run the following commands in order:
