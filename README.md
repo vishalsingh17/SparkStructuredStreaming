@@ -53,16 +53,6 @@ poetry install
 docker-compose up -d
 ```
 
-
-
-
-
-
-
-
-
-
-
 ## Running instructions
 Run the following commands in order:
 * `make setup` to install the Spark Structured Streaming app on a local Python env.
