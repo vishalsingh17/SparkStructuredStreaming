@@ -48,7 +48,10 @@ choco install make
 poetry install
 ```
 
-
+8. Open your Docker Desktop and run the below command
+```
+docker-compose up -d
+```
 
 
 
