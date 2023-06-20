@@ -28,9 +28,25 @@ cd SparkStructuredStreaming
 conda create -p venv python=3.7 -y
 ```
 
+4. Install setup.py
+```
+python install setup.py
+```
 
+5. Run windows powershell in administrator mode and run the below command
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
+6. Install make
+```
+choco install make
+```
 
+7. Install poetry
+```
+poetry install
+```
 
 
 
